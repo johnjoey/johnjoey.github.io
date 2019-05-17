@@ -1,9 +1,9 @@
-import React from "react"
+import React from 'react';
 
-import Mong from "./images/mong"
+import Mong from './images/Mong';
 
 const mongBanner = () => (
-  <div className="mong-banner" style={{ maxWidth: `300px` }}>
+  <div className="mong-banner" style={{ maxWidth: '300px' }}>
     <div className="mong-banner__image">
       <Mong />
     </div>
@@ -11,6 +11,6 @@ const mongBanner = () => (
       John Croker
     </div>
   </div>
-)
+);
 
-export default mongBanner
+export default mongBanner;

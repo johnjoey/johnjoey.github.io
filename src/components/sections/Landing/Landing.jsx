@@ -1,6 +1,6 @@
 import React from 'react';
 
-import MongBanner from '../../ui/mongBanner';
+import MongBanner from '../../ui/MongBanner';
 
 const landing = () => (
   <div className="landing">
