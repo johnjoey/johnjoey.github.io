@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Mong from './images/Mong';
+import Mong from '../images/Mong';
 
 const mongBanner = () => (
   <div className="mong-banner" style={{ maxWidth: '300px' }}>
