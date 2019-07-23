@@ -28,7 +28,7 @@ const items = sites.map(site => <li><a href={site.url} className="text-red-500 h
 const IndexPage = () => (
   <Layout>
     <main className="relative font-serif flex justify-center items-center min-h-screen">
-      <SEO title="Home" keywords={['John Croker', 'portfolio', 'website']} />
+      <SEO title="" keywords={['John Croker', 'portfolio', 'website']} />
 
       <div className="flex flex-col p-5" style={{ maxWidth: '700px' }}>
         <div style={{ width: '300px' }}>
@@ -43,7 +43,7 @@ const IndexPage = () => (
         </ul>
 
         <p className="mt-3 mb-5">
-          {'I\'m currently work at '}
+          {'I currently work at '}
           <a href="https://www.barcadiamedia.co.uk/" className="text-red-500 hover:text-red-300">Barcadia Media</a>
           {'. To get in touch, write to '}
           <a href="mailto:jj.croker@gmail.com" className="text-red-500 hover:text-red-300">jj.croker@gmail.com</a>
@@ -51,7 +51,7 @@ const IndexPage = () => (
         </p>
         <div>
           <a href="https://github.com/johnjoey" className="mr-3 inline-block bg-red-500 hover:bg-red-300 text-white py-2 px-4 border border-red-500 hover:border-transparent rounded">Github</a>
-          <a href="/JohnCroker.pdf" className="inline-block bg-transparent hover:border-red-300 text-red-500 hover:text-red-300 py-2 px-4 border border-red-500 rounded">Résumé</a>
+          <a href="/JohnCrokerCV.pdf" className="inline-block bg-transparent hover:border-red-300 text-red-500 hover:text-red-300 py-2 px-4 border border-red-500 rounded">Résumé</a>
         </div>
       </div>
     </main>

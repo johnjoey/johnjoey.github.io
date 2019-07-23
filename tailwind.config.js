@@ -4,7 +4,7 @@ module.exports = {
       colors: {},
     },
     fontFamily: {
-      serif: ['DM Serif Display', 'serif'],
+      serif: ['Noto Serif', 'serif'],
     },
   },
   variants: {},
