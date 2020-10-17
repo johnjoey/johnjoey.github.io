@@ -1,2 +1,2 @@
 # johnjoey.gihub.io
-Personal website/portfolio
+Personal website
